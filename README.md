@@ -1,6 +1,6 @@
 **Decodificador de Texto em Javascript**
 
-Este é um simples decodificador de texto em Javascript que pode ser usado para decodificar mensagens codificadas em Base64. Ele é útil quando você precisa decodificar mensagens codificadas para torná-las legíveis novamente.
+Este é um simples decodificador de texto em Javascript que pode ser usado para decodificar mensagens codificadas em CryptoJS. Ele é útil quando você precisa decodificar mensagens codificadas para torná-las legíveis novamente.
 
 **Como Usar:**
 
@@ -14,17 +14,28 @@ Este é um simples decodificador de texto em Javascript que pode ser usado para 
 2. **Abra o Arquivo HTML:**
    Navegue até o diretório onde você clonou ou extraiu os arquivos e abra o arquivo `index.html` em um navegador da web.
 
-3. **Insira o Texto Codificado:**
-   No campo de entrada de texto, insira a mensagem que você deseja decodificar.
 
-4. **Clique no Botão "Decodificar":**
-   Depois de inserir o texto codificado, clique no botão "Decodificar".
+3. **Insira o Texto a ser Criptografado:**
+   No campo de entrada de texto, insira a mensagem que você deseja codificar.
+   
 
-5. **Texto Decodificado:**
-   Após clicar no botão "Decodificar", o texto decodificado será exibido abaixo do botão.
+4. **Clique no Botão "Criptografar":**
+   Depois de inserir o texto codificado, clique no botão "Criptografar".
+
+
+6. **Clique no Botão "Descriptografar":**
+   Para descriptografar o texto criptografado, clique no botão "Descriptografar".
+   
+
+7. **Texto Decodificado:**
+   Após clicar no botão "Decodificar", o texto decodificado será exibido acima do botão.
+
+   
+8. **Clique no Botão "Criptografar":**
+   Clique no botão copiar, para copiar o texto criptografado ou descriptografado.
 
 **Observação:**
-Certifique-se de que o texto que você está tentando decodificar está codificado em Base64. Este decodificador funciona apenas para decodificar mensagens codificadas nesse formato.
+Certifique-se de que o texto que você está tentando decodificar está codificado com CryptoJS. Este decodificador funciona apenas para decodificar mensagens codificadas nesse formato.
 
 Sinta-se à vontade para modificar ou expandir este decodificador de acordo com suas necessidades. Este é apenas um exemplo básico para ajudá-lo a começar.
 
