@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <img src="./imagens/logoAlura.png" alt="Logo da Alura">
+    </header>
+
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <textarea id="texto" class="text-area" cols="41" rows="4" placeholder="Digite seu texto"
+                onfocus="limparPlaceholder(this)"></textarea>
+
+            <div>
+                <h6 class="informacao">Apenas letras minúsculas e sem acento.</h6>
+            </div>
+            <div class="botoes">
+                <button class="btn-encriptar" onclick="criptografarTexto()">Criptografar</button>
+                <button class="btn-desencriptar" onclick="descriptografarTexto()">Descriptografar</button>
+            </div>
+            <br>
+            <div class="btn-limpar">
+                <button class="btn-limpar" onclick="limparTexto()">Limpar Texto</button>
+            </div>
+        </section>
+
+        <section class="apresentacao__copiar__texto">
+            <textarea id="mensagem" class="mensagem" cols="20" rows="10" readonly></textarea>
+            <button class="btn-copiar" onclick="copiarTexto()">Copiar</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
