@@ -31,7 +31,7 @@ Este é um simples decodificador de texto em Javascript que pode ser usado para 
    Após clicar no botão "Decodificar", o texto decodificado será exibido acima do botão.
 
    
-8. **Clique no Botão "Criptografar":**
+8. **Clique no Botão "Copiar":**
    Clique no botão copiar, para copiar o texto criptografado ou descriptografado.
 
 **Observação:**
