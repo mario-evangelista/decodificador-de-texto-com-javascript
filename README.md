@@ -7,7 +7,7 @@ Este é um simples decodificador de texto em Javascript que pode ser usado para 
 1. **Clone ou Baixe o Repositório:**
    Você pode clonar este repositório usando o seguinte comando:
    ```
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+   git clone https://github.com/mario-evangelista/decodificador-de-texto-com-javascript.git
    ```
    Ou você pode baixar o arquivo ZIP e extrair os arquivos em seu computador.
 
