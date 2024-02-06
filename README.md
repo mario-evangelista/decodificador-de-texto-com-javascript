@@ -35,5 +35,6 @@ Este projeto é licenciado sob a MIT License. Consulte o arquivo LICENSE para ob
 Se você encontrar bugs ou desejar contribuir com melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
 **Autor:**
-[Seu Nome]
-[Seu Email]
+[Mário Evangelista]
+
+[mariojbe@gmail.com]
